@@ -15,8 +15,10 @@ repositories {
 	mavenCentral()
 }
 
+
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
+	//implementation("org.springframework.boot:spring-boot-starter-data-cassandra-reactive")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
